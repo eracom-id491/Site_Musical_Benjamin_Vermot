@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather+Sans:wght@400;500;600;700&display=swap');
+
+header h1, a {
+  font-family: Avenir;
+  font-weight: bolder;
+  color: #E9530D;
+}
+header h1{
+  padding: 0;
+  margin: 0;
+}
+
+header a:hover{
+  color: #F6E0BA;
+  text-decoration-color: #E9530D;
+
+
+}
+
+body, html{
+  margin: 0;
+  height: 100%;
+  background-color:#F6E0BA;
+
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+
+}
+
+main {
+
+  background-color: #F6E0BA;
+
+
+}
+
+nav{
+
+  width: 50%;
+
+}
+
+
+listen h1 {
+
+  text-align: center;
+  font-family: Avenir;
+  font-weight: bolder;
+  color: #E9530D;
+}
+
+listen{
+  text-align: center;
+
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25pt;
+  line-height: 50px;
+}
+
+.parallax{
+  /* The image used */
+ background-image: url("half-alive.jpg");
+
+ /* Set a specific height */
+ height: 100%;
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.titre{
+
+  float: right;
+
+  grid-column-start: 4;
+  grid-column-end: 6;
+  width: 50%;
+}
+.titre h1 {
+
+  text-align: right;
+  font-size: 30pt;
+
+}
+.chanson {
+
+
+  width: 33%;
+
+}
+.chanson img {
+  max-width: 270px;
+  height: auto;
+  box-shadow: 0 0 20px 0 #E9530D;;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chanson h3 {
+  text-align: center;
+  font-weight: 400;
+  font-family: Avenir;
+  color: #E9530D;
+}
+.chanson audio {
+  max-width: 270px;
+  padding-top: 20px;
+  color: #E9530D;
+  overflow: hidden;
+
+
+}
+.TrackList {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.NowNotYet{
+
+  text-align: center;
+  width: 20vw;
+  height: 100vh;
+  color: white;
+  position: absolute;
+  align-items: center;
+  margin-left: 40%;
+
+}
+.NowNotYet h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40vh;
+
+}
+
+.Merch {
+
+  background-color: #2D5F52;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+
+}
+.Product {
+  width: 100%;
+
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  color: #F6E0BA;
+  font-family: Avenir;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.Product a {
+  color: #F6E0BA;
+  font-weight: 100;
+}
+
+.Product a:hover {
+  color: #F6E0BA;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.pull1 {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Merch h1 {
+  color: #F6E0BA;
+  font-weight: bold;
+  font-family: Avenir;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: center;
+
+
+}
+.Merch_Title{
+  text-align:  center;
+  background-color: #2D5F52;
+  margin-top: 100px;
+  font-weight: bold;
+  color: #F6E0BA;
+  font-family: Avenir;
+}
+
+.Merch_Title h1 {
+
+  margin-top: 40px;
+  margin: 0;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
